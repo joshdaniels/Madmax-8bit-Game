@@ -66,6 +66,24 @@ height: 180px;
 margin-top: 138px;
 margin-left: 240px;
 }
+.road{
+background-image:url("../images/road.gif");
+position:absolute;
+z-index:11;
+width: 400px;
+height: 230px;
+margin-top: 133px;
+margin-left: 161px;
+}
+.blackcar{
+background-image:url("../images/yellowcardamage.gif");
+position:absolute;
+z-index:12;
+width: 400px;
+height: 230px;
+margin-top: 133px;
+margin-left: 161px;
+}
 .main2{
 height:900px;
 background-color:black;
