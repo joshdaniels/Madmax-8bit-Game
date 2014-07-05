@@ -69,7 +69,7 @@ margin-left: 240px;
 display:none;
 }
 .road{
-background-image:url("../images/road.gif");
+background-image:url("../images/road1.gif");
 position:absolute;
 z-index:11;
 width: 400px;
@@ -88,6 +88,16 @@ margin-top: 133px;
 margin-left: 161px;
 display:none;
 }
+.blackcardamage{
+background-image:url("../images/blackcardamage.gif");
+position:absolute;
+z-index:13;
+width: 400px;
+height: 230px;
+margin-top: 133px;
+margin-left: 161px;
+display:none;
+}
 .startbutton{
 	position: absolute;
 z-index: 11;
@@ -95,6 +105,24 @@ width: 63px;
 height: 26px;
 margin-top: 378px;
 margin-left: 529px;
+cursor: pointer;
+}
+.clicktostart{
+position: absolute;
+z-index: 11;
+width: 400px;
+height: 113px;
+margin-top: 250px;
+margin-left: 157px;
+cursor: pointer;
+}
+.attackbutton{
+position: absolute;
+z-index: 11;
+width: 41px;
+height: 33px;
+margin-top: 267px;
+margin-left: 610px;
 cursor: pointer;
 }
 .main2{
