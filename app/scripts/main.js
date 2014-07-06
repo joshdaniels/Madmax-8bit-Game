@@ -60,15 +60,15 @@ var Monster = function (options) {
 
 // player instance
 
-var ryu = new Player ({
-  name: 'Ryu',
+var Max = new Player ({
+  name: 'Max',
   elem: $('.player')
 });
 
 // monster instance
 
-var rickRoss = new Monster ({
-  name: 'Rick Ross',
+var Interceptor = new Monster ({
+  name: 'Interceptor',
   elem: $('.monster')
 });
 
@@ -77,7 +77,7 @@ var rickRoss = new Monster ({
 // player attacks monster
 
 attackBTN.on('click', function () {
-  ryu.attack(rickRoss);
+  Max.attack(Interceptor);
 });
 
 
@@ -110,9 +110,15 @@ var process_attack = function (attacker, attackee) {
     if (attackee instanceof Player) {
       // You Loose!!
       $(".youlose").show();
+      document.getElementById('audio2').play();
+      document.getElementById('audio1').pause();
+      document.getElementById('audio3').play();
     } else {
       // You Win!!
       $(".youwin").show();
+      document.getElementById('audio1').pause();
+      document.getElementById('audio4').play();
+      document.getElementById('audio5').play();
     }
 
   }
@@ -120,7 +126,10 @@ var process_attack = function (attacker, attackee) {
 
 $(".startbutton").click(function(){
   document.getElementById('audio1').play();
+ 
   });
+
+
 
 
 
