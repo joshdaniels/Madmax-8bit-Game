@@ -132,6 +132,53 @@ width:1280px;
 position:relative;
 z-index:1;
 }
+.madmaxcarfront{
+	height: 56px;
+background-image: url("../images/madmaxcarfront.png");
+width: 72px;
+position: absolute;
+z-index: 2;
+left: 217px;
+top: 400px;
+}
+.player{
+height: 56px;
+width: 72px;
+position: absolute;
+z-index: 2;
+left: 283px;
+top: 423px;
+}
+div.player input{
+background-color:transparent;
+width:40px;
+border:none;
+color:red;
+}
+.interceptorcarfront{
+height: 56px;
+background-image: url("../images/interceptorcarfront.png");
+width: 72px;
+position: absolute;
+z-index: 2;
+left: 433px;
+top: 400px;
+}
+.monster{
+height: 56px;
+width: 72px;
+position: absolute;
+z-index: 2;
+left: 407px;
+top: 423px;
+}
+div.monster input{
+background-color:transparent;
+width:40px;
+border:none;
+color:red;
+}
+
 .madmaxcar{
 height:200px;
 width:300px;
